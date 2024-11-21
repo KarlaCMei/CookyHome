@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35003765092",
+    "project_id": "cookyhome-704a1",
+    "storage_bucket": "cookyhome-704a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35003765092:android:91f5d172625e2b995e6a71",
+        "android_client_info": {
+          "package_name": "com.karla.cookyhome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAusgX7l-LRVdDUMT4egxJwNiHWXLY6MRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signUp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_ackground"
+    tools:context=".view.profile.SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/tittle_sign_up"
+        android:textColor="@color/secondColor"
+        android:textSize="@dimen/big_word"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/little_padding"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:background="@drawable/esquina_redondeada_edit_text_sign_up"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/hint_edit_email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/padding"
+        android:textColor="@color/secondColor"
+        android:textColorHint="@color/secondColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/little_padding"
+        android:layout_margin="@dimen/normal_margin"
+        android:layout_marginStart="@dimen/normal_margin"
+        android:background="@drawable/esquina_redondeada_edit_text_sign_up"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/hint_edit_password"
+        android:inputType="textPassword"
+        android:padding="@dimen/padding"
+        android:textColor="@color/secondColor"
+        android:textColorHint="@color/secondColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editTextVerifyPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/little_padding"
+        android:layout_margin="@dimen/normal_margin"
+        android:layout_marginStart="@dimen/normal_margin"
+        android:background="@drawable/esquina_redondeada_edit_text_sign_up"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/hint_edit_verify_password"
+        android:inputType="textPassword"
+        android:padding="@dimen/padding"
+        android:textColor="@color/secondColor"
+        android:textColorHint="@color/secondColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_create_acount"
+        android:fontFamily="casual"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/btn_start_sesion"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/little_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextVerifyPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Cooky Home</string>
+
+    <!-- Strings para los dialogos-->
+    <string name="msg_loading">Cargando</string>
+
+    <!-- Strings para la pantalla de create account-->
+    <string name="title">Crear cuenta</string>
+    <string name="textButton">Ingresar con email</string>
+    <string name="textSeparator">ó</string>
+
+    <!-- Strings para la pantalla de signUp-->
+    <string name="tittle_sign_up">CREAR  \nCUENTA</string>
+    <string name="hint_edit_verify_password">verificar contraseña</string>
+    <string name="msg_verify_password">La contraseña no coincide</string>
+    <string name="msg_add_password">La contraseña tiene que ser mayor a 6 digitos</string>
+    <string name="msg_email_not_valid">Email no valido</string>
+
+    <!-- Strings para la pantalla de login-->
+    <string name="tittle_login">INICIAR \nSESIÓN</string>
+    <string name="hint_edit_email">correo</string>
+    <string name="hint_edit_password">contraseña</string>
+    <string name="text_check_box">Recordar usuario</string>
+    <string name="btn_start_sesion">Iniciar sesión</string>
+    <string name="btn_forgot_password">Olvidé mi contraseña</string>
+    <string name="lbl_email">Ingresa correo electrónico</string>
+
+
 </resources>

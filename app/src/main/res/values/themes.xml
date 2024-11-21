@@ -2,8 +2,13 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.CookyHome" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
     </style>
 
     <style name="Theme.CookyHome" parent="Base.Theme.CookyHome" />
+
+    <style name="customLottie" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
 </resources>
